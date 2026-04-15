@@ -1,6 +1,6 @@
-public class MySql {
-    public void savePerson(Person person) {
+public class MySql implements PersonDatabase {
+    @Override
+    public void saveDataObject(Person person) {
         System.out.println("Save person ok...");
     }
-
 }
