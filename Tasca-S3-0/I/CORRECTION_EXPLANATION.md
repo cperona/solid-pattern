@@ -1,0 +1,1 @@
+Split MachineActions interface into smaller ones, each covering one functionality.
